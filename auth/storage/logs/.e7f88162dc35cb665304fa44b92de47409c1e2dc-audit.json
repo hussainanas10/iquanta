@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/home/satish/Desktop/enso-supplier-accounts/storage/logs/.e7f88162dc35cb665304fa44b92de47409c1e2dc-audit.json",
+    "files": [
+        {
+            "date": 1692343801146,
+            "name": "/home/satish/Desktop/enso-supplier-accounts/storage/logs/app-2023-08-18.log",
+            "hash": "7b9e61b9b14f02d98b40361217f5b8a0719dadc42d15d7caa2ad0d91c97f6598"
+        },
+        {
+            "date": 1692703361465,
+            "name": "/home/satish/Desktop/enso-supplier-accounts/storage/logs/app-2023-08-22.log",
+            "hash": "d216369cdbabf2b9c8e630a24207c924532b1d47f4e4aca74505c8c6c7733dcc"
+        },
+        {
+            "date": 1692768687170,
+            "name": "/home/satish/Desktop/enso-supplier-accounts/storage/logs/app-2023-08-23.log",
+            "hash": "e615edc4a8b7ae9b9965e380fb2772777aaa13dc16b7873ff0441caaabef5914"
+        },
+        {
+            "date": 1692941437710,
+            "name": "/home/satish/Desktop/enso-supplier-accounts/storage/logs/app-2023-08-25.log",
+            "hash": "aca593416588ec6a661e3a4dc7d75eba8ccd511cfb25b528d4563d8e7fbceeb5"
+        }
+    ],
+    "hashType": "sha256"
+}
