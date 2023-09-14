@@ -1,0 +1,22 @@
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient({
+  datasources: {
+    db: {
+      url: process.env.MONGO,
+    },
+  },
+});
+
+async function main() {
+  try {
+    await prisma.$connect();
+    return 'Connected to DB..';
+  } catch (error) {
+    throw error;
+  } finally {
+    await prisma.$disconnect();
+  }
+}
+
+export { main, prisma };
